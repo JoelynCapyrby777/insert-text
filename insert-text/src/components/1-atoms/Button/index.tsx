@@ -4,15 +4,15 @@ import styles from './Button.module.css';
 // 1. Definimos la "forma" de nuestras props con una interface
 interface ButtonProps {
     children: React.ReactNode; // 'children' puede ser texto, un ícono, etc.
-    primary?: boolean;         // 'primary' es opcional (por el '?') y booleano
+    variant?: 'primary' | 'secondary'; // Cambiamos 'primary' por 'variant'
     onClick?: () => void;      // 'onClick' es una función opcional que no retorna nada
 }
 
 // 2. Usamos la interface para tipar las props del componente
-export default function Button({ children, primary = false, onClick }: ButtonProps) {
+export default function Button({ children, variant = 'primary', onClick }: ButtonProps) {
     const buttonClasses = `
     ${styles.button}
-    ${primary ? styles.primary : ''}
+    ${variant === 'primary' ? styles.primary : styles.secondary}
   `;
 
     return (

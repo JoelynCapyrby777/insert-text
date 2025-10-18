@@ -9,10 +9,13 @@
     background-color: transparent;
     color: var(--text-primary);
     transition: var(--transition-fast);
+
 }
 
 .button:hover {
-    background-color: var(--bg-secondary);
+    background-color: var(--color-primary-dark);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
 }
 
 /* Este es nuestro modificador --primary de BEM */
@@ -24,4 +27,19 @@
 
 .primary:hover {
     background-color: var(--color-primary-dark);
+}
+
+.secondary {
+    background-color: transparent;
+    color: var(--text-on-primary);
+    /* Texto blanco */
+    border: 2px solid var(--text-on-primary);
+    /* Borde blanco */
+}
+
+.secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Un fondo blanco sutil al pasar el cursor */
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
 }
