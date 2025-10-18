@@ -1,0 +1,42 @@
+/* components/2-molecules/BenefitCard/BenefitCard.module.css */
+.card {
+  background-color: var(--bg-primary);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-8) var(--space-6);
+  text-align: center;
+  border: 1px solid var(--bg-secondary);
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-md);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.iconWrapper {
+  display: inline-flex;
+  padding: var(--space-4);
+  background-color: var(--color-primary-light);
+  border-radius: 50%; /* Círculo perfecto */
+  margin-bottom: var(--space-6);
+}
+
+.iconWrapper svg {
+  width: 32px;
+  height: 32px;
+  stroke: var(--text-on-primary);
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.description {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
