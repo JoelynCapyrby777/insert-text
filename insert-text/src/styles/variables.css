@@ -1,0 +1,99 @@
+@import "../styles/variables.css";
+
+:root {
+/* ============================================= */
+  /* Paleta de Colores 🎨 (Inspirada en Avispa Esmeralda) */
+  /* ============================================= */
+
+  /* Colores primarios y de marca (verdes y azules metálicos) */
+  --color-primary: #1A936F; /* Verde esmeralda profundo */
+  --color-primary-light: #2EC4B6; /* Turquesa vibrante */
+  --color-primary-dark: #0F5E52; /* Verde azulado muy oscuro */
+  
+  --color-secondary: #0077B6; /* Azul eléctrico / Océano para acentos o texto */
+  --color-secondary-light: #00B4D8; /* Azul cielo brillante */
+  --color-secondary-dark: #03045E; /* Azul marino profundo */
+
+  /* Colores de Texto */
+  --text-primary: #2C3E50; /* Azul oscuro casi negro para legibilidad */
+  --text-secondary: #5C707F; /* Gris azulado para subtítulos */
+  --text-on-primary: #ffffff; /* Texto blanco para usar sobre fondos oscuros/primarios */
+  --text-on-secondary: #ffffff; /* Texto blanco para usar sobre fondos azules/secundarios */
+
+  /* Colores de Fondo */
+  --bg-primary: #F0F4F8; /* Un gris azulado muy claro, casi blanco */
+  --bg-secondary: #E1E8EE; /* Gris medio claro para fondos de secciones */
+  --bg-dark: #1C2833; /* Un azul oscuro casi negro para secciones destacadas */
+
+  /* Colores de Feedback (mantenidos con un toque diferente si es posible, o estándar) */
+  --color-success: #28A745; /* Verde estándar */
+  --color-warning: #FFC107; /* Amarillo estándar */
+  --color-error: #DC3545; /* Rojo estándar */
+    /* ============================================= */
+    /* Tipografía                                   */
+    /* ============================================= */
+    --font-family-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-family-mono: "Fira Code", monospace;
+
+    /* Escala de tamaños de fuente (Modular Scale) */
+    --font-size-xs: 0.75rem;
+    /* 12px */
+    --font-size-sm: 0.875rem;
+    /* 14px */
+    --font-size-base: 1rem;
+    /* 16px (el tamaño por defecto) */
+    --font-size-lg: 1.125rem;
+    /* 18px */
+    --font-size-xl: 1.25rem;
+    /* 20px */
+    --font-size-2xl: 1.5rem;
+    /* 24px */
+    --font-size-3xl: 1.875rem;
+    /* 30px */
+    --font-size-4xl: 2.25rem;
+    /* 36px */
+
+    /* Pesos de la fuente */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+
+    /* ============================================= */
+    /* Espaciado y Tamaños                           */
+    /* ============================================= */
+    /* Usa una escala basada en 4px u 8px */
+    --space-1: 0.25rem;
+    /* 4px */
+    --space-2: 0.5rem;
+    /* 8px */
+    --space-3: 0.75rem;
+    /* 12px */
+    --space-4: 1rem;
+    /* 16px */
+    --space-6: 1.5rem;
+    /* 24px */
+    --space-8: 2rem;
+    /* 32px */
+    --space-12: 3rem;
+    /* 48px */
+    --space-16: 4rem;
+    /* 64px */
+
+    /* ============================================= */
+    /* Otros Estilos de UI 🎨                       */
+    /* ============================================= */
+
+    /* Bordes */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+
+    /* Sombras */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Transiciones */
+    --transition-fast: all 150ms ease-in-out;
+}
