@@ -1,3 +1,5 @@
+/* components/3-organisms/HeroSection/HeroSection.module.css */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -5,17 +7,92 @@
     text-align: center;
     padding: var(--space-16) var(--space-4);
     gap: var(--space-6);
-    /* Espacio entre los elementos */
+
+    /* --- AÑADE ESTO PARA EL FONDO --- */
+    background-image: url('../../../../public/emerald-wasp-bg.webp');
+    /* Ruta desde la carpeta 'public' */
+    background-size: cover;
+    /* Cubre todo el área sin distorsionar la imagen */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    min-height: 500px;
+    /* Asegura que la sección tenga suficiente altura para ver el fondo */
+    color: var(--text-on-primary);
+    /* Para que el texto sea blanco y contraste */
+    position: relative;
+    /* Necesario para el overlay */
 }
+
+/* --- (Opcional) Overlay Oscuro para Mejor Contraste --- */
+/* Esto ayudará a que el texto blanco sea más legible sobre la imagen */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Un 40% de opacidad negra */
+    z-index: 0;
+    /* Asegura que el overlay esté detrás del contenido */
+}
+
+/* Asegura que el contenido esté por encima del overlay */
+.hero>* {
+    z-index: 1;
+    position: relative;
+    /* Asegura que el contenido esté en su propio contexto de apilamiento */
+}
+
 
 .title {
     font-size: var(--font-size-4xl);
     font-weight: var(--font-weight-bold);
     max-width: 600px;
+    /* color: var(--text-on-primary); Ya se define en .hero, pero puedes sobrescribir si necesitas */
 }
 
 .subtitle {
     font-size: var(--font-size-xl);
-    color: var(--text-secondary);
+    /* color: var(--text-on-primary); Esto también se define arriba, pero ajusta si necesitas un blanco diferente */
     max-width: 550px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  /* ... (tus estilos existentes) ... */
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.subtitle {
+  /* ... (tus estilos existentes) ... */
+  animation: slideUp 0.8s ease-out 0.2s forwards; /* El 0.2s es un retraso */
+}
+
+/* También puedes animar el botón */
+.hero button {
+  animation: fadeIn 1s ease-out 0.5s forwards;
+  opacity: 0; /* Empieza invisible hasta que la animación se active */
 }

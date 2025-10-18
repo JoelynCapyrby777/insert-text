@@ -17,9 +17,9 @@ export default function HeroSection() {
         La herramienta más sencilla para eliminar el formato de cualquier texto
         antes de pegarlo.
       </p>
-      <Button primary={true} onClick={handleButtonClick}>
-        Ir a la Herramienta
-      </Button>
+        <Button variant="primary" onClick={handleButtonClick}>
+          Ir a la Herramienta
+        </Button>
     </section>
   );
 }
