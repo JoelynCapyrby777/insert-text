@@ -80,14 +80,14 @@ export default function HeroSection() {
       
       <div className={styles.heroContent}>
         <h1 ref={titleRef} className={styles.title}>
-          Pega Texto Limpio, Siempre.
+          Descubre este maravilloso mundo en minuatura.
         </h1>
         <p ref={subtitleRef} className={styles.subtitle}>
-          La herramienta más sencilla para eliminar el formato de cualquier texto antes de pegarlo.
+          ¡La enciclopedia mas grande que podras encontrar!.
         </p>
         <div ref={buttonsRef}>
           <Button variant="primary" onClick={handlePrimaryClick}>
-            Ir a la Herramienta
+            Descubrir
           </Button>
           <Button variant="secondary" onClick={handleSecondaryClick}>
             Ver en GitHub
