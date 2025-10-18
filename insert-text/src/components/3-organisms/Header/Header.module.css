@@ -1,0 +1,37 @@
+/* components/3-organisms/Header/Header.module.css */
+.header {
+  position: absolute; /* Se superpone sobre el HeroSection */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--space-4) var(--space-8);
+  background-color: transparent; /* Fondo transparente */
+  z-index: 10; /* Se asegura que esté por encima de otros elementos */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Elementos a los extremos */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-on-primary); /* Texto blanco para que contraste */
+  text-decoration: none;
+}
+
+.navLink {
+  font-size: var(--font-size-sm);
+  color: var(--text-on-primary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.navLink:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
