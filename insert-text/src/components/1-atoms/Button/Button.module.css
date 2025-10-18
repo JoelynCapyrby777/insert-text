@@ -1,0 +1,27 @@
+/* components/1-atoms/Button/Button.module.css */
+.button {
+    padding: var(--space-3) var(--space-6);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    border: 1px solid var(--text-primary);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-primary);
+    transition: var(--transition-fast);
+}
+
+.button:hover {
+    background-color: var(--bg-secondary);
+}
+
+/* Este es nuestro modificador --primary de BEM */
+.primary {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    border-color: var(--color-primary);
+}
+
+.primary:hover {
+    background-color: var(--color-primary-dark);
+}
