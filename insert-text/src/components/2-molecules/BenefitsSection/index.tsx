@@ -28,17 +28,17 @@ export default function BenefitsSection() {
         <BenefitCard
           icon={<ClockIcon />}
           title="Ahorra Tiempo Valioso"
-          description="No más clics extra en 'Pegado Especial'. Limpia tu texto con una sola acción y agiliza tu flujo de trabajo."
+          description="eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
         />
         <BenefitCard
           icon={<DocumentIcon />}
-          title="Mantén la Consistencia"
-          description="Asegúrate de que tus documentos, correos y notas mantengan un formato uniforme y profesional sin estilos indeseados."
+          title="Información para todos"
+          description="eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
         />
         <BenefitCard
           icon={<ZapIcon />}
           title="Uso Instantáneo y Fácil"
-          description="Sin instalaciones, sin registros, sin complicaciones. Solo copia, pega en nuestra web y obtén tu texto limpio al instante."
+          description="eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
         />
       </div>
     </section>
