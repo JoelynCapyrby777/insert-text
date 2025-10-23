@@ -76,7 +76,7 @@ export default function HeroSection() {
         <Image
           ref={parallaxImageRef}
           src="/heroBackground.jpg"
-          alt="Fondo de una avispa esmeralda metálica sobre una superficie oscura"
+          alt="Fondo de una mariquita sobre una hoja verde"
           fill
           quality={90}
           priority

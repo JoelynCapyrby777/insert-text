@@ -7,7 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/" className={styles.logo}>
-          [Insert-Text]
+          Insert-Bug
         </Link>
         <Link href="/aviso-de-privacidad" className={styles.navLink}>
           Aviso de Privacidad

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        © {currentYear} [Insert-Text] | Hecho por 
+        © {currentYear} Insert-Bug | Hecho por 
         <a 
           href="https://github.com/JoelynCapyrby777" // <-- ¡Cambia esto por tu GitHub!
           target="_blank" 
