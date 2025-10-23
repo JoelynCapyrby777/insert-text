@@ -1,0 +1,51 @@
+/* app/aviso-de-privacidad/Aviso.module.css */
+
+.main {
+  padding: var(--space-16) var(--space-8);
+  padding-top: calc(var(--space-16) + 60px); /* Añade espacio para el Header absoluto */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-4);
+}
+
+.lastUpdated {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-8);
+}
+
+.section {
+  margin-bottom: var(--space-8);
+}
+
+.section h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-4);
+  border-bottom: 2px solid var(--color-primary-light);
+  padding-bottom: var(--space-2);
+}
+
+.section p,
+.section li {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--space-4);
+}
+
+.section ul {
+  padding-left: var(--space-8);
+}

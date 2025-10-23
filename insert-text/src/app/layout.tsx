@@ -8,7 +8,7 @@ import Header from '@/components/3-organisms/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: '[Insert Text] App',
+  title: 'Insert Bug',
   description: 'Pega texto sin formato al instante',
 };
 
