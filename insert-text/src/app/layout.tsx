@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Insert Bug',
-  description: 'Pega texto sin formato al instante',
+  description: 'Blog bloguero de bichotes',
 };
 
 export default function RootLayout({
