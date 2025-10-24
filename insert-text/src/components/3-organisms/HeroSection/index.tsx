@@ -65,7 +65,7 @@ export default function HeroSection() {
   }, []); // El array vacío asegura que este código solo se ejecute una vez
 
   const handleSecondaryClick = () => {
-    window.open('https://github.com/tu-usuario/insert-text', '_blank');
+    window.open('https://github.com/JoelynCapyrby777/insert-text', '_blank');
   };
 
   return (
