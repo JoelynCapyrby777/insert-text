@@ -20,7 +20,7 @@ export default function AvisoDePrivacidadPage() {
             La primera obligación que tenemos contigo es informarte la identidad del responsable de este sitio:
           </p>
           <ul>
-            <li><strong>Razón Social:</strong> Insert Bug (en adelante "Insert Bug" o "el Sitio").</li>
+            <li><strong>Razón Social:</strong> Insert Bug.</li>
             <li><strong>Responsable:</strong> Yoel Alfredo Gijón.</li>
             <li><strong>Domicilio:</strong> Benito Juarez,Quintana Roo.</li>
             <li><strong>Nuestra actividad:</strong> Somos un blog y portafolio digital dedicado a la exploración cultural, educativa y visual del mundo de los insectos, ofreciendo artículos, galerías fotográficas y conocimiento sobre el microuniverso.</li>
